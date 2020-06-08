@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,54,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    height: 100vh;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 0.2px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+ul li a.stronaglowna{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+ul li a.adm{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+ul li a.kontakt{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+ul li a.dolacz{
+    border: 1px solid #fff;
+    padding: 2px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+ul li a.dolacz:hover {
+    background-color: #fff;
+    color: lightblue;
+}
+
+.logo{
+    float: left;
+    position: absolute;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 10px
+    
+}
+
+.logo {
+    color: #fff;
+}
+
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.title h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+.title p{
+    color: #80dfff;
+    font-size: 18px;
+}
+
+h1, p{
+    text-shadow: rgba(0, 0, 0, 0.75);
+}
+
+.admini {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+p {
+    font-style: bold;
+}
